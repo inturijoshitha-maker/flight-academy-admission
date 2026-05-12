@@ -1,0 +1,217 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#031321;
+    color:white;
+}
+
+/* HEADER */
+
+header{
+    background:#071c2f;
+    padding:20px;
+    text-align:center;
+}
+
+header h1{
+    color:#00cfff;
+    margin-bottom:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:#00cfff;
+}
+
+/* SECTIONS */
+
+section{
+    display:none;
+    min-height:100vh;
+    padding:40px;
+}
+
+.active{
+    display:block;
+}
+
+/* HOME PAGE */
+
+.banner{
+    text-align:center;
+    padding:100px 20px;
+    background-image:url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=1200&auto=format&fit=crop');
+    background-size:cover;
+    background-position:center;
+    border-radius:10px;
+}
+
+.banner h2{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.banner p{
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+.banner button{
+    padding:14px 30px;
+    border:none;
+    background:#00cfff;
+    font-size:18px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.section-title{
+    text-align:center;
+    margin-top:50px;
+    margin-bottom:30px;
+    color:#00cfff;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:250px;
+    background:#071c2f;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px #00cfff;
+    text-align:center;
+}
+
+.card h3{
+    color:#00cfff;
+    margin-bottom:10px;
+}
+
+/* LOGIN PAGE */
+
+.login-container{
+    width:900px;
+    max-width:100%;
+    margin:auto;
+    background:#071c2f;
+    border-radius:15px;
+    overflow:hidden;
+    display:flex;
+    box-shadow:0px 0px 15px #00cfff;
+    margin-top:40px;
+}
+
+.left{
+    width:50%;
+    background-size:cover;
+    background-position:center;
+    padding:40px;
+}
+
+.left h1{
+    margin-top:220px;
+}
+
+.right{
+    width:50%;
+    padding:50px;
+}
+
+.right h2{
+    text-align:center;
+    color:#00cfff;
+    margin-bottom:20px;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin-top:15px;
+    border:none;
+    border-radius:5px;
+    background:#0d2a45;
+    color:white;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    margin-top:20px;
+    border:none;
+    background:#00cfff;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#00a6cc;
+}
+
+.links{
+    text-align:center;
+    margin-top:15px;
+}
+
+.links a{
+    color:#00cfff;
+    text-decoration:none;
+}
+
+/* REGISTER PAGE */
+
+.register-box{
+    width:400px;
+    margin:auto;
+    background:#071c2f;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0px 0px 15px #00cfff;
+    margin-top:50px;
+}
+
+.register-box h2{
+    text-align:center;
+    color:#00cfff;
+    margin-bottom:20px;
+}
+
+footer{
+    background:#071c2f;
+    text-align:center;
+    padding:15px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+    .login-container{
+        flex-direction:column;
+    }
+
+    .left,
+    .right{
+        width:100%;
+    }
+
+    .banner h2{
+        font-size:35px;
+    }
+}
