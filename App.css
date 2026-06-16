@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f8fc;
+}
+
+header {
+  background-color: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #d9ecff;
+  padding: 12px;
+  text-align: center;
+}
+
+nav button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+nav button:hover {
+  background-color: #0077cc;
+  color: white;
+}
+
+section {
+  text-align: center;
+  padding: 30px;
+}
+
+input,
+select {
+  width: 300px;
+  padding: 10px;
+  margin: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.offer-box {
+  width: 60%;
+  margin: auto;
+  border: 2px solid #0077cc;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px;
+  font-size: 18px;
+}
